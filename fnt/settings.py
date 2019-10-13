@@ -25,7 +25,7 @@ SECRET_KEY = 'tstz^jzlc!uui0b*t0sc0t_+msb17%_nhrve0t^alb$qnx^1@x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['35.244.47.52']
+ALLOWED_HOSTS = ['35.244.47.52','furantails.in']
 
 
 # Application definition
