@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73e0b946-39f3-4450-ae28-a6094d3ba2a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/petition_html/petition_success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fnt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fnt/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petition/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petition/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/petition_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/petition_html/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/petition_html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="134" column="91" lean-forward="true" selection-start-line="134" selection-start-column="91" selection-end-line="134" selection-end-column="91" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -55,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/petition_html/petition_success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="95" column="99" lean-forward="true" selection-start-line="95" selection-start-column="99" selection-end-line="95" selection-end-column="99" />
+            <state relative-caret-position="120">
+              <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -142,8 +137,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fnt/urls.py" />
-        <option value="$PROJECT_DIR$/templates/petition_html/petition_success.html" />
         <option value="$PROJECT_DIR$/petition/views.py" />
+        <option value="$PROJECT_DIR$/templates/petition_html/petition_success.html" />
         <option value="$PROJECT_DIR$/templates/petition_html/index.html" />
       </list>
     </option>
@@ -151,7 +146,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="31" />
     <option name="width" value="680" />
-    <option name="height" value="736" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectId" id="1SBgUT2fkylYCdKyOiIrzYGAwA5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -291,22 +286,22 @@
       <workItem from="1570967364340" duration="16428000" />
       <workItem from="1571034168440" duration="1081000" />
       <workItem from="1571036336032" duration="4276000" />
-      <workItem from="1571042206442" duration="7205000" />
+      <workItem from="1571042206442" duration="8796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32091000" />
+    <option name="totallyTimeSpent" value="33682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1360" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09787557" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.20219436" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33006537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33006537" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32952693" />
@@ -372,17 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/petition_html/petition_success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="95" column="99" lean-forward="true" selection-start-line="95" selection-start-column="99" selection-end-line="95" selection-end-column="99" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/petition/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -400,10 +384,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/petition_html/petition_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/petition_html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="134" column="91" lean-forward="true" selection-start-line="134" selection-start-column="91" selection-end-line="134" selection-end-column="91" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
