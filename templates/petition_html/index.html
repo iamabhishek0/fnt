@@ -87,33 +87,43 @@
 
 
 
-                    <form method="post" action="/"  style="padding-bottom: 40px;">
+                    <form method="post" action="{% url 'petition_index' %}"  style="padding-bottom: 40px;">
+                        {% csrf_token %}
                         <div class="form-group">
-                            <input type="text" class="form-control" name="" value="" placeholder="First & Last Name" />
+                            <input type="name" class="form-control" name="name" value="" placeholder="Full Name" required/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="" value="" placeholder="Contact Number" />
+                            <input type="tel" class="form-control" name="phone_number" value="" placeholder="Contact Number" maxlength="10" minlength="10" />
                         </div>
 
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Why is this important to you?" rows="3"></textarea>
+                            <textarea class="form-control" name="reason" placeholder="I am signing this Petition because" rows="3"></textarea>
                         </div>
                         <div>
 
                             Do You have a Pet?<br>
+{#                             <div>#}
+{#                                <select name="have_pet" type="radio"  required>#}
+{#                                    <option type="radio" value="True">Please Select your Package</option>#}
+{#                                     <option type="radio" value="False">jjd</option>#}
+{#                                    <option value="silver">Silver</option>#}
+{#                                    <option value="gold">Gold</option>#}
+{#                                    <option value="diamond">Diamond</option>#}
+{#                                </select>#}
+{#                            </div>#}
                             <input type="radio" id=""
-                                   name="" value="">
+                                   name="have_pet" value="True">
                             <label for="contactChoice1">Yes</label>
 
                             <input type="radio" id=""
-                                   name="" value="">
+                                   name="have_pet" value="False">
                             <label for="contactChoice1">No</label>
 
 
                         </div>
 
 
-                        <button type="submit" class="btn btn-block btn-primary">Sign Petition!</button>
+                        <button type="submit" name="submit" class="btn btn-block btn-primary">Sign Petition!</button>
                     </form>
 
 
