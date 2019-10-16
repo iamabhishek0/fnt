@@ -72,16 +72,33 @@ TEMPLATES = [
 WSGI_APPLICATION = 'fnt.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_db',
+        'USER': 'abhi24061997',
+        'PASSWORD': '9999420420',
+        'HOST': '',   # Or an IP Address that your DB is hosted on
+        'PORT': '',
     }
 }
 
+# Database
+# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+#
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.m'),
+#     }
+# }
+
+# DATABASE_ENGINE = 'mysql'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'ado_mssql'.
+# DATABASE_NAME = 'django_db'             # Or path to database file if using sqlite3.
+# DATABASE_USER = 'abhi24061997'             # Not used with sqlite3.
+# DATABASE_PASSWORD = '9999420420'         # Not used with sqlite3.
+# DATABASE_HOST = ''             # Set to empty string for localhost. Not used with sqlite3.
+# DATABASE_PORT = ''             # Set to empty string for default. Not used w
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators

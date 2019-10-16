@@ -17,7 +17,7 @@
     <link href="{% static "css/jquery.fs.boxer.css"%}" rel="stylesheet">
     <link href="{% static "css/jquery.fs.wallpaper.css" %}" rel="stylesheet">
 
-
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
 
     <link href="{% static "style.css" %}" rel="stylesheet" media="screen">
@@ -141,7 +141,7 @@
                     <h2 >It costs nothing to save a life</h2><br>
 
 
-                     <form method="post" action="{% url 'rescue' %}"  style="padding-bottom: 40px;">
+                     <form method="post" action="{% url "rescue" %}"  style="padding-bottom: 40px;">
                         {% csrf_token %}
                         <div class="form-group">
                             <input type="name" class="form-control" name="name" value="" placeholder="Full Name" required/>

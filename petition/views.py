@@ -31,6 +31,6 @@ def rescue(request):
         if form.is_valid():
             form.save()
 
-            messages.success(request, 'Form submission successful')
+            return render(request, 'petition_html/rescue.html')
 
     return render(request, 'petition_html/rescue.html')
