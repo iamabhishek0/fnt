@@ -20,5 +20,5 @@ from petition import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.petition, name='petition_index'),
-    # path('success/',views.success, name='success'),
+    path('rescue/',views.rescue, name='rescue'),
 ]

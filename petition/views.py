@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
-from .forms import PetitionForm
+from .forms import PetitionForm,RescueForm
 from .models import petition_entry
 from django.contrib import messages
 from django.http import HttpResponseRedirect
@@ -25,6 +25,12 @@ def petition(request):
             # return redirect('petition_index')
     return render(request, 'petition_html/index.html', {'count':count,'percent':percent,'remaining':remaining})
 
-# def success(request):
-#
-#     return render(request, 'petition_html/petition_success.html')
+def rescue(request):
+    if request.method =='POST':
+        form = RescueForm(request.POST)
+        if form.is_valid():
+            form.save()
+
+            messages.success(request, 'Form submission successful')
+
+    return render(request, 'petition_html/rescue.html')
