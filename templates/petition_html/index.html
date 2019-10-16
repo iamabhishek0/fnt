@@ -168,7 +168,7 @@
                             <input type="name" class="form-control" name="name" value="" placeholder="Full Name" required/>
                         </div>
                         <div class="form-group">
-                            <input type="tel" class="form-control" name="phone_number" value="" placeholder="Contact Number" maxlength="10" minlength="10" required/>
+                            <input type="tel" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" name="phone_number" value="" placeholder="Contact Number" maxlength="10" minlength="10" required/>
                         </div>
 
                         <div class="form-group">
@@ -187,7 +187,7 @@
                             {#                                </select>#}
                             {#                            </div>#}
                             <input type="radio" id=""
-                                   name="have_pet" value="True">
+                                   name="have_pet" value="True" required>
                             <label for="contactChoice1">Yes</label>
 
                             <input type="radio" id=""
