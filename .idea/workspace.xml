@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="73e0b946-39f3-4450-ae28-a6094d3ba2a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petition/static/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/petition/static/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition/static/images/people-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petition/static/images/people-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition/static/images/people-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petition/static/images/people-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition/static/images/people-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petition/static/images/people-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition/static/images/people-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petition/static/images/people-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petition/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/petition_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/petition_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/petition_html/petition_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/petition_html/petition_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/petition_html/rescue.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/petition_html/rescue.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +42,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/petition_html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3600">
-              <caret line="240" column="345" selection-start-line="240" selection-start-column="345" selection-end-line="240" selection-end-column="345" />
+            <state relative-caret-position="214">
+              <caret line="339" column="41" selection-start-line="339" selection-start-column="41" selection-end-line="339" selection-end-column="41" />
               <folding>
-                <element signature="n#style#0;n#h5#0;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#2;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#2;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#4;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h2#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petition/static/images/splash-blur.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petition/static/images/splash.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petition/static/images/people-3.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -61,49 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/petition/static/images/favicon.ico">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fnt/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#627#659#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petition/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petition/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="108" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petition/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="77" />
+            <state relative-caret-position="-120">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -114,8 +96,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/petition_html/petition_success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="270">
+              <caret line="320" column="42" selection-start-line="320" selection-start-column="42" selection-end-line="320" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#strong#0;n#h2#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,22 +110,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/petition_html/rescue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="145" column="30" lean-forward="true" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
+            <state relative-caret-position="165">
+              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="106" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petition/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h2#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,6 +146,8 @@
       <find>text-center</find>
       <find>container</find>
       <find>lead</find>
+      <find>id</find>
+      <find>id=&quot;petition&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,11 +160,11 @@
         <option value="$PROJECT_DIR$/petition/forms.py" />
         <option value="$PROJECT_DIR$/fnt/urls.py" />
         <option value="$PROJECT_DIR$/fnt/settings.py" />
-        <option value="$PROJECT_DIR$/templates/petition_html/rescue.html" />
         <option value="$PROJECT_DIR$/petition/models.py" />
-        <option value="$PROJECT_DIR$/petition/views.py" />
-        <option value="$PROJECT_DIR$/templates/petition_html/petition_success.html" />
         <option value="$PROJECT_DIR$/petition/static/style.css" />
+        <option value="$PROJECT_DIR$/petition/views.py" />
+        <option value="$PROJECT_DIR$/templates/petition_html/rescue.html" />
+        <option value="$PROJECT_DIR$/templates/petition_html/petition_success.html" />
         <option value="$PROJECT_DIR$/templates/petition_html/index.html" />
       </list>
     </option>
@@ -349,22 +329,22 @@
       <workItem from="1571036336032" duration="4276000" />
       <workItem from="1571042206442" duration="17660000" />
       <workItem from="1571206540275" duration="14128000" />
-      <workItem from="1571228435540" duration="5971000" />
+      <workItem from="1571228435540" duration="12342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62645000" />
+    <option name="totallyTimeSpent" value="69016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1360" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.119878605" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.119878605" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33006537" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33006537" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32843137" />
@@ -450,37 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/petition_html/rescue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="145" column="30" lean-forward="true" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/petition/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petition/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/petition_html/petition_success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
         </state>
       </provider>
     </entry>
@@ -491,22 +444,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/petition_html/index.html">
+    <entry file="file://$PROJECT_DIR$/petition/static/images/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petition/static/images/people-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petition/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="240" column="345" selection-start-line="240" selection-start-column="345" selection-end-line="240" selection-end-column="345" />
+        <state relative-caret-position="-120">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
-            <element signature="n#style#0;n#h5#0;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#2;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#2;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#4;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petition/static/images/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/petition/static/images/splash.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petition/static/images/splash-blur.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/petition_html/rescue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="106" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h2#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/petition_html/petition_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="320" column="42" selection-start-line="320" selection-start-column="42" selection-end-line="320" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#strong#0;n#h2#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/petition_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="339" column="41" selection-start-line="339" selection-start-column="41" selection-end-line="339" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#strong#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h2#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

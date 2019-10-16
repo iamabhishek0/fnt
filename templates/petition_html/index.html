@@ -121,6 +121,9 @@
                             <a href="#supporters" class="smooth-scroll">Supporters</a>
                         </li>
                         <li class="menu-item">
+                            <a href="#contactus" class="smooth-scroll">Contact Us</a>
+                        </li>
+                        <li class="menu-item">
                             <a href="#sign-it" class="smooth-scroll">Sign it!</a>
                         </li>
                     </ul><!-- .menu -->
@@ -132,7 +135,7 @@
 <article id="content">
     <section id="home" class="crossfade pb-pattern o-lines-light" data-crossfade-start="images/splash.jpg" data-crossfade-end="images/splash-blur.jpg">
         <div id="splash" class="midway-horizontal midway-vertical midway animated">
-            <h1>Although they may be different from us but that doesn't makes them any less than us. <small></small></h1>
+            <h1 style="text-align: right!important;">Although they may be different from us but that doesn't makes them any less than us. <small></small></h1>
             <a href="#petition" class="btn btn-primary btn-lg smooth-scroll hidden-xs">Support this Petition Now!</a>
         </div><!-- #splash -->
         <div id="counter" class="midway-horizontal midway animated">
@@ -142,14 +145,14 @@
                     <span class="sr-only">53% Complete</span>
                 </div>
             </div>
-            <div class="text-right">We Still Need <strong class="counter" data-number="{{ remaining }}">0</strong> Supporters</div>
+            <div class="text-right">We strive for <strong class="counter" data-number="{{ remaining }}">0</strong> more Supporters</div>
         </div><!-- #counter -->
     </section><!-- #home -->
     <section id="petition"  style="padding-bottom: 15px;">
         <div class="container" id="sign-it">
             <div class="row content-padding-lg" style="padding-bottom: 0px !important;">
                 <div class="col-sm-12 text-center" style="padding-bottom: 0px !important;">
-                    <h2 class="section-title">The Petition</h2>
+                    <h2 class="section-title">Step towards Humanity</h2>
                 </div>
             </div><!-- .row -->
 
@@ -177,15 +180,7 @@
                         <div>
 
                             Do You have a Pet?<br>
-                            {#                             <div>#}
-                            {#                                <select name="have_pet" type="radio"  required>#}
-                            {#                                    <option type="radio" value="True">Please Select your Package</option>#}
-                            {#                                     <option type="radio" value="False">jjd</option>#}
-                            {#                                    <option value="silver">Silver</option>#}
-                            {#                                    <option value="gold">Gold</option>#}
-                            {#                                    <option value="diamond">Diamond</option>#}
-                            {#                                </select>#}
-                            {#                            </div>#}
+
                             <input type="radio" id=""
                                    name="have_pet" value="True" required>
                             <label for="contactChoice1">Yes</label>
@@ -220,12 +215,12 @@
 
 
                 <div class="col-sm-7 col-md-7 col-md-offset-1 equal-height">
-                    <h1>Spreading Paw-sitivity:<br>You're one call away from saving a life
+                    <h1>Spreading Paw-sitivity:<br>You're just one call away from saving a life
 
                     </h1>
                     <div id="author">
                         <img src="{% static "images/fnt-logo.jpg" %}" alt="" />
-                        Petition by<br />
+                        Petition by:<br />
                         <strong style="font-size: 28px;">Fur & Tails</strong><br />
 
 
@@ -246,8 +241,8 @@
                         •	It is open to all throughout the year for rescuing injured, lost, stolen and sick dogs  and reporting it to our community .<br>
                         •	 Provison of free medical assistance, food ,shelter and all such aids to animals, preferably dogs would be available.<br>
                     •	 We are operational across 8+cities right now.</h5></p>
-                    <p ><h5 style="font-weight: normal!important;">So, If you find any dogs in such conditions,
-                        Drop a message at <strong>@furandtails.in</strong>
+                    <p ><h5 style="font-weight: normal!important;">So, If you find any dogs in such conditions,<br>
+                        Drop a message at <strong>team@furandtails.in</strong><br>
                         or Call Us at <strong>990501831/9990501832</strong>
                     Remember, We are just a call away.</h5></p>
                     {#                    <p>Curabitur est gravida et libero vitae dictum. Quisque placerat facilisis egestas cillum dolore. Cras mattis iudicium purus sit amet fermentum. Ab illo tempore, ab est sed immemorabili.</p>#}
@@ -277,7 +272,7 @@
             </div><!-- .container -->
     </section><!-- #petition -->
 
-    <section id="petition"  style="padding-bottom: 15px;">
+    <section  style="padding-bottom: 15px;">
         <div class="container" >
             <div class="row content-padding-lg" style="padding-bottom: 0px !important;">
                 <div class="col-sm-12 text-center"   style="padding-bottom: 0px !important;">
@@ -287,7 +282,7 @@
                 </div></div>
         </div>
 
-
+    </section>
 {#    <div class="container">#}
 {#    <iframe width="1100" height="399" src="https://www.youtube.com/embed/6Xiy-ZVfJRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding-left: 100px!important;"></iframe>#}
 {#    </div>#}
@@ -306,41 +301,52 @@
 
 
 
-{#    <section id="supporters" class="animated">#}
-{#        <div id="supporters-container" class="pb-pattern o-lines-light">#}
-{#            <div class="container">#}
-{#                <div class="row content-padding-lg">#}
-{#                    <div class="col-sm-12 text-center">#}
-{#                        <h2 class="section-title">Our Supporters</h2>#}
-{#                        <ul class="block-grid-6">#}
-{#                            <li>#}
-{#                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Ambitioni dedisse scripsisse iudicaretur. Ut enim ad minim veniam, quis nostrud exercitation.</q><cite>Ella G.</cite>" />#}
-{#                            </li>#}
-{#                            <li>#}
-{#                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Ambitioni dedisse scripsisse iudicaretur. Ut enim ad minim veniam, quis nostrud exercitation.</q><cite>Ella G.</cite>" />#}
-{#                            </li>#}
-{#                            <li>#}
-{#                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Ambitioni dedisse scripsisse iudicaretur. Ut enim ad minim veniam, quis nostrud exercitation.</q><cite>Ella G.</cite>" />#}
-{#                            </li>#}
-{#                            <li>#}
-{#                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Ambitioni dedisse scripsisse iudicaretur. Ut enim ad minim veniam, quis nostrud exercitation.</q><cite>Ella G.</cite>" />#}
-{#                            </li>#}
-{#                            <li>#}
-{#                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Ambitioni dedisse scripsisse iudicaretur. Ut enim ad minim veniam, quis nostrud exercitation.</q><cite>Ella G.</cite>" />#}
-{#                            </li>#}
-{#                            <li>#}
-{#                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Ambitioni dedisse scripsisse iudicaretur. Ut enim ad minim veniam, quis nostrud exercitation.</q><cite>Ella G.</cite>" />#}
-{#                            </li>#}
-{#                        </ul>#}
-{#                        <h3>#}
-{#                            <strong class="counter" data-number="{{ count }}">0</strong> Supporters Already. <small>Be one of them!</small>#}
-{#                        </h3>#}
-{#                    </div><!-- .col-sm-12 -->#}
-{#                </div><!-- .row -->#}
-{#            </div><!-- .container -->#}
-{#        </div><!-- #supporters-container -->#}
+    <section id="supporters" class="animated">
+        <div id="supporters-container" class="pb-pattern o-lines-light">
+            <div class="container">
+                <div class="row content-padding-lg">
+                    <div class="col-sm-12 text-center">
+                        <h2 class="section-title">Our Supporters</h2>
+                        <ul class="block-grid-6">
+                            <li>
+                                <img class="supporter" src="{% static "images/people-1.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>It is a great initiative as it would provide  guidance to the people who really want to help the dogs. Amazing initiative.</q><cite>Anish Ahmed</cite>" />
+                            </li>
+                            <li>
+                                <img class="supporter" src="{% static "images/people-2.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>This has been really helpful in providing a direction towards the saving and rescuing the dogs. Thankyou Fur&Tails.</q><cite>Aashi Goyal</cite>" />
+                            </li>
+                            <li>
+                                <img class="supporter" src="{% static "images/people-5.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Very supportive. Immediate responses to each and every request for saving dogs. Keep up the good work.</q><cite>Ayush Mittal</cite>" />
+                            </li>
+                            <li>
+                                <img class="supporter" src="{% static "images/people-4.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Diwali is not a gala time for all, there are some who tremble in fear because of the massive sound pollution from the crackers - our dogs. To spread awareness about why it is important to think about the safety of our little ones this Diwali , Furandtails have come forward with this amazing initiative.</q><cite>Dharya Bahl</cite>" />
+                            </li>
+                            <li>
+                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Great facilities, I must say and that too free of cost. Keep it up.</q><cite>Siddharth Tyagi</cite>" />
+                            </li>
 
 
+                            <li>
+                                <img class="supporter" src="{% static "images/people-6.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Happy to experience their services.It’s not only diwali but other times of the year when they actively take interest. Happy to be a part of their community. Keep growing.</q><cite>Mehak Kapoor</cite>" />
+                            </li>
+{#                            <li>#}
+{#                                <img class="supporter" src="{% static "images/people-3.jpg" %}" alt="" data-container="body" data-toggle="popover" data-placement="auto" data-html="true" data-content="<q>Ambitioni dedisse scripsisse iudicaretur. Ut enim ad minim veniam, quis nostrud exercitation.</q><cite>Ella G.</cite>" />#}
+{#                            </li>#}
+                        </ul>
+                        <h3>
+                            <strong class="counter" data-number="{{ count }}">0</strong> Supporters Already. <small>Be one of them!</small>
+                        </h3>
+
+
+                        <h2 id="contactus"><strong style="color: white;">Contact Us</strong></h2>
+                        <h3 ><strong style="color: white;">Contact Number: 990501831/9990501832 </strong></h3>
+                        <h3 ><strong style="color: white;">Email: team@furandtails.in </strong></h3>
+
+                    </div><!-- .col-sm-12 -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- #supporters-container -->
+
+    </section>
 
         <!-- PLACE YOUR DISQUSS CODE HERE -->
 

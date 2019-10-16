@@ -9,9 +9,9 @@ from django.http import HttpResponseRedirect
 
 def petition(request):
     count = petition_entry.objects.all().count()
-    count = int(count)+5321
-    remaining = int(10000-count)
-    percent = int((count*100)/10000)
+    count = int(count)+3427
+    remaining = int(8000-count)
+    percent = int((count*100)/8000)
 
 
     if request.method =='POST':
