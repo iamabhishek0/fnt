@@ -80,6 +80,7 @@ DATABASES = {
         'PASSWORD': '9999420420',
         'HOST': '',   # Or an IP Address that your DB is hosted on
         'PORT': '',
+        'OPTIONS':{'charset':'utf8mb4'},
     }
 }
 
