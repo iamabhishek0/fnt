@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73e0b946-39f3-4450-ae28-a6094d3ba2a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fnt/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fnt/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fnt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fnt/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petition/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petition/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petition/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petition/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/petition_html/rescue.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/petition_html/rescue.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petition/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+            <state relative-caret-position="-37">
+              <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -99,11 +95,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/petition_html/rescue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="231" column="31" selection-start-line="231" selection-start-column="31" selection-end-line="231" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="120" column="86" selection-start-line="120" selection-start-column="86" selection-end-line="120" selection-end-column="86" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#form#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +135,11 @@
       <find>lead</find>
       <find>id</find>
       <find>id=&quot;petition&quot;</find>
+      <find>garbage</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,9 +156,10 @@
         <option value="$PROJECT_DIR$/fnt/settings.py" />
         <option value="$PROJECT_DIR$/templates/petition_html/location.html" />
         <option value="$PROJECT_DIR$/petition/models.py" />
-        <option value="$PROJECT_DIR$/templates/petition_html/rescue.html" />
         <option value="$PROJECT_DIR$/fnt/urls.py" />
         <option value="$PROJECT_DIR$/petition/views.py" />
+        <option value="$PROJECT_DIR$/petition/static/js/main.js" />
+        <option value="$PROJECT_DIR$/templates/petition_html/rescue.html" />
       </list>
     </option>
   </component>
@@ -193,6 +198,26 @@
               <item name="fnt" type="462c0819:PsiDirectoryNode" />
               <item name="petition" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fnt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnt" type="462c0819:PsiDirectoryNode" />
+              <item name="petition" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fnt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnt" type="462c0819:PsiDirectoryNode" />
+              <item name="petition" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fnt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnt" type="462c0819:PsiDirectoryNode" />
+              <item name="petition" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="individual-pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fnt" type="b2602c69:ProjectViewProjectNode" />
@@ -314,22 +339,22 @@
       <workItem from="1572632885720" duration="5202000" />
       <workItem from="1572682555808" duration="2399000" />
       <workItem from="1572696706885" duration="10697000" />
-      <workItem from="1572767051459" duration="2037000" />
+      <workItem from="1572767051459" duration="3255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130410000" />
+    <option name="totallyTimeSpent" value="131628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1360" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.13353565" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.13353565" />
       <window_info id="Structure" order="2" sideWeight="0.502439" side_tool="true" weight="0.1229135" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33006537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33006537" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32843137" />
@@ -438,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/petition_html/rescue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="231" column="31" selection-start-line="231" selection-start-column="31" selection-end-line="231" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fnt/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -488,8 +506,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/petition/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="-37">
+          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/petition_html/rescue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="120" column="86" selection-start-line="120" selection-start-column="86" selection-end-line="120" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#form#0;n#div#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
