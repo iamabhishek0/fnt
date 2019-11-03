@@ -47,7 +47,16 @@ def rescue(request):
         identification_mark = request.POST["identification_mark"]
         dog_type = request.POST["dog_type"]
 
-        rescue = rescue_entry(name=name,phone_number=phone_number,email=email,address=address,scenario=scenario,identification_mark=identification_mark,dog_type=dog_type)
+
+        maps_latitude=request.POST["maps_latitude"]
+        maps_latitude=float(maps_latitude)
+        maps_latitude =round(maps_latitude,10)
+
+        maps_longitude = request.POST["maps_longitude"]
+        maps_longitude=float(maps_longitude)
+        maps_longitude=round(maps_longitude, 10)
+
+        rescue = rescue_entry(name=name,phone_number=phone_number,email=email,address=address,scenario=scenario,identification_mark=identification_mark,dog_type=dog_type,lat_position=maps_latitude,long_position=maps_longitude)
         rescue.save()
 
 
@@ -55,3 +64,4 @@ def rescue(request):
         return render(request, 'petition_html/rescue.html')
 
     return render(request, 'petition_html/rescue.html')
+

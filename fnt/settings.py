@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'petition',
     'import_export',
+
 ]
 
 MIDDLEWARE = [
@@ -140,3 +141,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'petition/static')
+
+
+
+

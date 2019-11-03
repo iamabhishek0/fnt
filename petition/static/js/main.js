@@ -57,7 +57,8 @@
 	/** Video Bg */
 	if ( $("#supporters-container").length > 0 ) {
 		$("#supporters-container").wallpaper({
-			source: {
+			source:
+				{
 				poster	: "images/garbage.jpg",
 				mp4		: "video/garbage.mp4",
 				ogg		: "video/garbage.ogv",

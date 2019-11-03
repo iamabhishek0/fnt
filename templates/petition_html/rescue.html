@@ -118,7 +118,7 @@
 
     <section id="petition"  style="padding-bottom: 15px;">
         <div class="container" id="sign-it">
-            <div class="row content-padding-lg" style="padding-bottom: 0px !important;">
+            <div class="row content-padding-lg" style="padding-bottom: 0px !important; width: 80%!important;padding-left: 20px!important;">
 
 
 
@@ -126,7 +126,7 @@
                 <h2 >It costs nothing to save a life</h2><br>
 
 
-                <form method="post" action="{% url "rescue" %}"  style="padding-bottom: 40px;">
+                <form method="post" action="{% url "rescue" %}"  onsubmit="initMap()" style="padding-bottom: 40px;">
                     {% csrf_token %}
                     <div class="form-group">
                         <input type="name" class="form-control" name="name" value="" placeholder="Full Name" required/>
@@ -158,15 +158,7 @@
                     <div>
 
                         Animal Type?<br>
-                        {#                             <div>#}
-                        {#                                <select name="have_pet" type="radio"  required>#}
-                        {#                                    <option type="radio" value="True">Please Select your Package</option>#}
-                        {#                                     <option type="radio" value="False">jjd</option>#}
-                        {#                                    <option value="silver">Silver</option>#}
-                        {#                                    <option value="gold">Gold</option>#}
-                        {#                                    <option value="diamond">Diamond</option>#}
-                        {#                                </select>#}
-                        {#                            </div>#}
+
                         <div>
                             <input type="radio" id=""
                                    name="dog_type" value="Pet" required>
@@ -179,7 +171,85 @@
 
                     </div>
 
+                    <div class="form-control" id="map" style="width: 100%!important;height: 400px!important;"></div>
 
+
+                    <script type="text/javascript">
+                        function initMap()
+                        {
+
+
+                            {#var position = {lat: 36.720426, lng: -4.412573};#}
+
+                            var map = new google.maps.Map(document.getElementById("map"),
+                                {
+                                    zoom: 14,
+                                    center: null,
+
+                                });
+                            var marker = new google.maps.Marker({
+                                position: null,
+                                map: map,
+                                draggable: true,
+                            });
+
+                            function populateInputs(pos) {
+                                document.getElementById("maps_latitude").value=pos.lat();
+                                document.getElementById("maps_longitude").value=pos.lng();
+                            }
+
+                            navigator.geolocation.getCurrentPosition(function (position) {
+                                initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                                populateInputs(initialLocation);
+                                map.setCenter(initialLocation);
+                                marker.setPosition(initialLocation);
+                            });
+
+
+
+                            {#google.maps.event.addListener(marker, 'dragend', function() {#}
+                            {#    map.panTo(marker.getPosition());#}
+
+
+                                google.maps.event.addListener( marker, 'dragend', function () {
+
+
+
+
+                                    var coordy = {
+                                        x:this.getPosition().lat(),
+                                        y: this.getPosition().lng()
+
+                                    };
+
+                                    document.getElementById("maps_latitude").value = coordy.x;
+                                    document.getElementById("maps_longitude").value = coordy.y;
+                                    {#alert(coordy.x)#}
+                                } );
+
+
+                            {##}
+                            {# });#}
+                        };
+
+
+
+                    </script>
+
+
+                    <input type="hidden" name="maps_latitude" id="maps_latitude" value="">
+                    <input type="hidden" name="maps_longitude" id="maps_longitude" value="">
+
+
+
+
+
+
+
+                    <script async defer
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKynCsu02oMm_16cpRQZ18LdoJp9p-tq8&callback=initMap">
+                    </script>
+                    <br>
                     <button type="submit" name="submit" class="btn btn-block btn-primary">Submit and Be our Hero!</button>
                 </form>
 

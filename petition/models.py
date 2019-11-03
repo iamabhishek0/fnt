@@ -17,3 +17,5 @@ class rescue_entry(models.Model):
     identification_mark = models.CharField(max_length=100,blank=True)
     dog_type = models.CharField(max_length=100,blank=True)
     date_time = models.DateTimeField(auto_now_add=True)
+    long_position = models.FloatField(default=None )
+    lat_position = models.FloatField(default=None)
